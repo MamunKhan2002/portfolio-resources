@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 * {
     padding: 0;
@@ -7,6 +7,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* ------------Navigation Section Design Start------------- */
 .logo {
     color: #181818;
     font-size: 45px;
@@ -16,7 +17,8 @@
 .logo-char {
     color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     background: #FD6E0A;
     border-radius: 5px;
     font-size: 20px;
@@ -25,19 +27,21 @@
     padding-block: 18px;
     padding-inline: 35px;
 }
-.btn-primary >a{
+
+.btn-primary>a {
     color: #FFF;
     font-weight: 700;
+    text-decoration: none;
 }
 
 nav {
     display: flex;
     margin-inline: 230px;
-    margin-top: 50px;
+    padding-top: 50px;
     justify-content: space-between;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: #474747;
     font-weight: 300;
@@ -52,4 +56,56 @@ nav ul {
 ul li {
     font-size: 20px;
     margin-inline: 20px;
+}
+
+/* ------------Navigation Section Design End------------- */
+
+
+
+.nav-banner-header {
+    background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    position: bottom right;
+    background-position: bottom right;
+}
+
+
+.banner-title {
+    font-size: 85px;
+    color: #181818;
+}
+
+
+.banner {
+    /* display: flex; */
+    margin-left: 230px;
+    margin-inline-end: 38px;
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+}
+
+.banner-text {
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner-content {
+    font-size: 18px;
+    color: #757575;
+    font-weight: 400;
+    line-height: 30px;
+    margin-block-end: 30px;
+}
+
+.CV {
+    margin-inline-end: 30px;
+}
+
+.mary-img {
+    width: 584px;
+    height: 676px;
 }
