@@ -60,8 +60,6 @@ ul li {
 
 /* ------------Navigation Section Design End------------- */
 
-
-
 .nav-banner-header {
     background-color: #FFF8F3;
     background-image: url("../images/header_bg.png");
@@ -86,6 +84,7 @@ ul li {
 .banner-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .banner-text {
@@ -101,11 +100,69 @@ ul li {
     margin-block-end: 30px;
 }
 
-.CV {
+.CV-btn {
     margin-inline-end: 30px;
 }
 
 .mary-img {
     width: 584px;
     height: 676px;
+    margin-inline-end: 72px;
+}
+
+
+
+
+/* -------About Section Design Start--------- */
+
+main{
+    max-width: 1140px;
+    margin-inline: auto;
+}
+.about-title{
+    font-size: 35px;
+    font-weight: 700px;
+    text-align: center;
+    color: #181818;
+}
+
+.about-description{
+    font-size: 18px;
+    font-weight: 400px;
+    text-align: center;
+    line-height: 30px;
+    color: #757575;
+    text-align: center;
+    padding-block: 30px;
+}
+
+.about-section{
+    padding: 130px 155px ;
+    margin-block: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.about-info{
+    text-align: center;
+}
+
+.about-info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
+.about-info-title{
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+    
+
 }
