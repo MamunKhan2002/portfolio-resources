@@ -210,3 +210,55 @@ main {
     font-weight: 400;
     color: #757575;
 }
+
+/* -- -------What I Do Section End------- -- */
+
+.resume-title {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #181818;
+    margin-block: 130px 110px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 71px;
+}
+
+.resume-colum-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resume-item-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.download-cv {
+    margin-block: 70px 130px;
+    text-align: center;
+}
+
+
+
+/* -- --------Footer Section Design Start------ -- */
