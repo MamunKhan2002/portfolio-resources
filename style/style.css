@@ -262,3 +262,57 @@ main {
 
 
 /* -- --------Footer Section Design Start------ -- */
+
+.footer-title {
+    font-size: 35px;
+    color: #181818;
+    font-weight: 700;
+}
+
+footer {
+    display: flex;
+    padding: 130px 0 0 230px;
+    background-color: #FFF8F3;
+    gap: 116px;
+}
+
+.footer-title {
+    margin-bottom: 20px;
+}
+
+.icon {
+    margin-top: 30px;
+}
+
+input[type="text"],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    border: 0;
+    color: #757575;
+    font-size: 16px;
+    padding: 18px 0px 18px 30px;
+}
+
+/* .massage {
+    width: 461px;
+    height: 180px;
+} */
+
+.user-box {
+    width: 461px;
+    height: 64px;
+}
+
+textarea {
+    width: 461px;
+    height: 180px;
+    font-size: 16px;
+}
+
+.submit-btn{
+    margin-bottom: 130px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+}
