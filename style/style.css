@@ -310,9 +310,104 @@ textarea {
     font-size: 16px;
 }
 
-.submit-btn{
+.submit-btn {
     margin-bottom: 130px;
     color: #fff;
     font-size: 20px;
     text-transform: capitalize;
 }
+
+.hide {
+    display: none;
+}
+
+
+/*---------Mobile Device and medium Device Responsive Layout----------*/
+
+@media screen and (max-width:576px) {
+
+    .banner-container,nav ul, nav{
+        flex-direction: column;
+    }
+    nav ul li{
+        padding-block: 10px;
+    }
+    .CV-btn{
+        margin-bottom: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 30px
+    }
+
+    .user-box,
+    textarea {
+        width: 293px
+    }
+    .resume-container{
+        flex-direction: column;
+        padding: 0 20px 0 20px;
+    }
+
+    .skill-container{
+        flex-direction: column;
+        margin-inline: 20px;
+    }
+
+    .about-section{
+        padding-inline: 28px;
+    }
+
+    .about-info-container{
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (min-width:576px) and (max-width: 992px) {
+    .logo{
+        text-align: center;
+    }
+    .banner-container,nav ul, nav{
+        flex-direction: column;
+    }
+    nav ul li{
+        padding-block: 10px;
+    }
+    .nav-banner-header{
+        background-image: none;
+    }
+    .CV-btn{
+        margin-bottom: 20px;
+    }
+    .banner{
+        margin-left: 120px;
+    }
+    footer {
+        flex-direction: column;
+        padding: 30px;
+        text-align: center;
+    }
+
+    input[type="text"],textarea {
+        margin: 18px auto;
+    }
+    .resume-container{
+        flex-direction: column;
+        padding: 0 20px 0 20px;
+    }
+    .skill-container{
+        flex-direction: column;
+        margin-inline: 20px;
+    }
+    .about-section{
+        padding-inline: 28px;
+    }
+
+    .about-info-container{
+        flex-direction: column;
+    }
+}
+
